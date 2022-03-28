@@ -1,0 +1,10 @@
+v 3
+* Reference http://www.stata.com/manuals13/rnet.pdf
+d {bf:HOLMSB}
+d holmsb is a postestimation command to control the family-wise error rate using the Sidak and Bonferroni corrections with the Holm step-down algorithm when performing hypothesis tests.
+d After installation, type {bf: help holmsb} for a detailed description of the command and its options.
+d
+d {bf:Installation}
+d Type {bf: net install holmsb, from(net install holmsb, from("https://raw.github.com/MarcRagin/holmsb/master/") replace)}
+d
+p holmsb
